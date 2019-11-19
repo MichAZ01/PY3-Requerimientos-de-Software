@@ -1,0 +1,91 @@
+#formularioIngresar{
+    font-family: Quicksand;
+    margin-top: 0;
+    margin-bottom: 3%;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+    -webkit-box-shadow: 13px 10px 11px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 10px 11px -8px rgba(0,0,0,0.75);
+    box-shadow: 13px 10px 11px -8px rgba(0,0,0,0.75);
+}
+
+.contenedorInformacion{
+    margin: 20px;
+}
+
+.logoCA{
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.logoCA > img{
+    height: 280px;
+}
+
+.btn.btn-primary{
+    margin-left: 160px;
+    background-color: rgb(243, 88, 25);
+    border-color: rgb(243, 88, 25);
+}
+
+@media (min-width: 992px) {
+    .logoCA{
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    .logoCA > img{
+        height: 280px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .logoCA{
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+    .logoCA > img{
+        height: 220px;
+    }
+    #formularioIngresar{
+        margin-bottom: 13%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logoCA{
+        margin-top: 4px;
+        margin-left: 25%;
+    }
+    .logoCA > img{
+        height: 180px;
+    }
+    #formularioIngresar{
+        margin-bottom: 21%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logoCA{
+        margin-top: 8px;
+        margin-left: 17%;
+    }
+    .logoCA > img{
+        height: 180px;
+    }
+    #formularioIngresar{
+        margin-bottom: 25%;
+        margin-left: 24%;
+    }
+}
+
+.registrarse{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}

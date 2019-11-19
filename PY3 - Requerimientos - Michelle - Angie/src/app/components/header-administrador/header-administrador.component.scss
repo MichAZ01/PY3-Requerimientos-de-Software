@@ -1,0 +1,65 @@
+.navbarAdministrador{
+    background-color: rgb(37, 79,96, 0.6);
+}
+
+#navbarSupportedContent{
+    font-size: larger;
+    font-family: Quicksand;
+    font-weight: 700px;
+}
+
+.navbar-toggler {
+    border-color: rgb(243,88,25);
+}
+
+a{
+    color: white;
+}
+
+.dropdown-menu > a{
+    color: black;
+}
+
+
+.iconoMenu{
+    float: left;
+    height: 30px;
+    margin-right: 6px;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,88,25, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.DivImagenLogo{
+	top: 0;
+}
+
+.imgLogo{
+    height: 90px;
+    top: 0;
+}
+
+@media (min-width: 992px) {
+    .imgLogo{
+        height: 85px;
+    }
+    #navbarSupportedContent{
+        position: absolute;
+        right: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgLogo{
+        height: 75px;
+    }
+    #navbarSupportedContent{
+        font-size: medium;
+    }
+    .dropdown-menu{
+        margin-top: 10px;
+    }
+}
